@@ -1,0 +1,192 @@
+/* Estilos generales para .custom-p */
+
+@font-face {
+    font-family: "CopenhagenGrotesk";
+    src: url("../../Other/fonts/CopenhagenGrotesk.otf");
+  }
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #18181B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    /* Cambiado a "relative" para que el contenido se ajuste correctamente */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.custom-p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 500px;
+    width: 500px;
+    height: auto;
+    padding-right: 500px;
+    padding-left: 500px;
+
+}
+
+.desc-images {
+    max-width: 100%;
+    border: 2px solid #FFFFFF; /* Color y grosor del borde */
+    float: center;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+    /*padding-left: 750px;*/
+}
+
+.desc-h2 {
+    left: 680px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: CopenhagenGrotesk;
+    text-align: center;
+    float: center;
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding-left: 1px;
+}
+
+.h2-mod {
+    left: 630px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: CopenhagenGrotesk;
+    text-align: center;
+    float: center;
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding-left: 1px;
+}
+
+.h2-economy {
+    left: 650px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: CopenhagenGrotesk;
+    text-align: center;
+    float: center;
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding-left: 1px;
+}
+
+.h2-interaction {
+    left: 650px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: CopenhagenGrotesk;
+    text-align: center;
+    float: center;
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding-left: 1px;
+}
+/* Consulta @media para pantallas pequeñas */
+@media (max-width: 768px) {
+    .custom-p {
+        text-align: justify;
+        max-width: 60%;
+        width: 60%;
+        height: 100%;
+        padding-left: 150px;
+    }
+
+    .desc-images {
+        max-width: 400px; 
+        padding-left: 25px;
+    }
+
+    .desc-h2 {
+        left: 320px;
+    }
+
+    .h2-mod{
+        left: 300px;
+    }
+
+    .h2-economy{
+        left: 300px;
+    }
+
+    .h2-interaction{
+        left: 290px;
+    }
+}
+
+@media (max-width: 500px) {
+    .custom-p {
+        font-size: 14px;
+        text-align: justify;
+        max-width: 30%;
+        width: 30%;
+        height: 100%;
+        padding-left: 310px;
+    }
+
+    .desc-images {
+        max-width: 300px; 
+        padding-left: 25px;
+    }
+
+    .desc-h2 {
+        left: 320px;
+    }
+
+    .h2-mod{
+        left: 300px;
+    }
+
+    .h2-economy{
+        left: 300px;
+    }
+
+    .h2-interaction{
+        left: 290px;
+    }
+}
+
+@media (max-width: 300px) {
+    .custom-p {
+        font-size: 8px;
+        text-align: justify;
+        max-width: 15%;
+        width: 15%;
+        height: 100%;
+        padding-left: 415px;
+    }
+
+    .desc-images {
+        max-width: 100px; 
+        padding-left: 25px;
+    }
+
+    .desc-h2 {
+        left: 425px;
+    }
+
+    .h2-mod{
+        left: 390px;
+    }
+
+    .h2-economy{
+        left: 400px;
+    }
+
+    .h2-interaction{
+        left: 400px;
+    }
+}
